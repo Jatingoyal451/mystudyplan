@@ -9,6 +9,7 @@ import Groups from "@/pages/Groups";
 import GroupChat from "@/pages/GroupChat";
 import Schedule from "@/pages/Schedule";
 import CodingChallenges from "@/pages/CodingChallenges";
+import Achievements from "@/pages/Achievements";
 import Profile from "@/pages/Profile";
 import Auth from "@/pages/Auth";
 import NotFound from "@/pages/NotFound";
@@ -29,6 +30,7 @@ function App() {
               <Route path="groups/:groupId/chat" element={<GroupChat />} />
               <Route path="schedule" element={<Schedule />} />
               <Route path="challenges" element={<CodingChallenges />} />
+              <Route path="achievements" element={<Achievements />} />
               <Route path="profile" element={<Profile />} />
             </Route>
             <Route path="*" element={<NotFound />} />

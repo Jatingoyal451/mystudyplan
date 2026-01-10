@@ -1,6 +1,6 @@
 import { Outlet, Navigate, Link, useLocation } from 'react-router-dom';
 import { useAuth } from '@/contexts/AuthContext';
-import { Home, BookOpen, Users, Calendar, Code, User, LogOut } from 'lucide-react';
+import { Home, BookOpen, Users, Calendar, Code, User, LogOut, Trophy } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 
 const navItems = [
@@ -9,6 +9,7 @@ const navItems = [
   { path: '/groups', icon: Users, label: 'Groups' },
   { path: '/schedule', icon: Calendar, label: 'Schedule' },
   { path: '/challenges', icon: Code, label: 'Challenges' },
+  { path: '/achievements', icon: Trophy, label: 'Achievements' },
   { path: '/profile', icon: User, label: 'Profile' },
 ];
 
